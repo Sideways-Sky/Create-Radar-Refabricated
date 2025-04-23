@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "create_radar",
+  "version": "${version}",
+  "name": "Create: Radars",
+  "description": "Welcome to Create Radars, a mod offering a variety of tools and blocks for Surveillance, Detection, and Controlling Weapons.",
+  "authors": [
+    "HappySG", "CeoOfGoogle", "Kipti", "OndatraCZE", "Ray(furuochen)", "Sideways Sky"
+  ],
+  "contact": {
+    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+  },
+  "license": "CC0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sideways_sky.create_radar.CreateRadar"
+    ],
+    "client": [
+      "net.sideways_sky.create_radar.CreateRadarClient"
+    ],
+    "fabric-datagen": [
+      "net.sideways_sky.create_radar.CreateRadarDatagen"
+    ]
+  },
+  "mixins": [
+    "create_radar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

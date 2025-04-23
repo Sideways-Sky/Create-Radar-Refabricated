@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sideways_sky.create_radar.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractCannonAccessor",
+    "AutoCannonAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
