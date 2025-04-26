@@ -41,7 +41,6 @@ public class AutoPitchControllerBlockEntity extends KineticBlockEntity {
 		if (level != null && level.getBlockEntity(pos) instanceof CannonMountBlockEntity mount) {
 			return mount;
 		}
-		CreateRadar.LOGGER.warn("CannonMountBlockEntity not found at " + pos);
 		return null;
 	}
 
