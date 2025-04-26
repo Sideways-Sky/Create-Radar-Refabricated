@@ -1,32 +1,17 @@
-# Create Fabric Addon Template
+Direct port of: [Create: Radars](https://modrinth.com/mod/create-radars) for fabric. 
 
-This template mod comes pre-configured for developing an addon mod for Create on Fabric.
+Requires [Create](https://modrinth.com/mod/create-fabric)
+### The mod is in ALPHA. Many features will come!
 
+## About
+Welcome to Create Radars, a mod offering various tools and blocks for Surveillance, Detection, and Weapon control.
 
-## Setup
+The added elements of tech are designed to leave as many design choices to the player as possible. With Create Radars, the game isn't played inside a bunch of UIs, it challenges you to setup contraptions of animated components working together in many possible arrangements, and a wide variety of techniques and features ensuring strategic depth and immersion.
 
-This template is an extension of the base [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod).
-Setup is mostly the same.
+The mechanics are inspired by real life detection technology, but simplified to the extent any player can utilize them... and so development would go faster.
+## Current Features:
 
-Additionally, set `recipe_viewer` in [gradle.properties](gradle.properties). Remember to remove unused
-example code. Make sure versions are up-to-date.
+- Radar bearing multiblock: Shape your radar however you like, with each characteristic influencing its capability.
+- Scalable monitor multiblock: Visualize your radar to have an overview of the battlefield and effortlessly spot any intruders.
+- Cannon controller: Direct your autocannons at your intruders, with the help of your radars.
 
-When you publish your mod, you should use jars provided by GitHub Actions. These jars will be built in a predictable
-environment and will have build number metadata.
-
-## Features
-- Access to Create and all of its dependencies
-- Mojang Mappings base, with Parchment providing Javadoc and parameters
-- Automatic build workflow with GitHub Actions
-- Developer QOL: Mod Menu, recipe viewers
-
-## Other Templates
-- [Multi-loader template](https://github.com/Fabricators-of-Create/create-multiloader-addon-template)
-- [Forge-only template](https://github.com/kotakotik22/CreateAddonTemplate)
-
-## Help
-Questions? Join us in the #devchat channel of the [Create Discord](https://discord.com/invite/hmaD7Se).
-
-## License
-
-This template is available under the CC0 license. Feel free to do as you wish with it.
