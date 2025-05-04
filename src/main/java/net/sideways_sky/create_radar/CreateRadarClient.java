@@ -4,12 +4,15 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.sideways_sky.create_radar.block.datalink.DataLinkBlockItem;
 import net.sideways_sky.create_radar.networking.AllPackets;
+import net.sideways_sky.create_radar.registry.ModPartials;
 import net.sideways_sky.create_radar.registry.ModPonderIndex;
 import net.sideways_sky.create_radar.registry.ModPonderTags;
 
 public class CreateRadarClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+		ModPartials.init();
+
 		ModPonderIndex.register();
 		ModPonderTags.register();
 

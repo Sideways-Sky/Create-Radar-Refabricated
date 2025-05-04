@@ -1,6 +1,5 @@
 package net.sideways_sky.create_radar.registry;
 
-
 import com.jozufozu.flywheel.core.PartialModel;
 
 import net.sideways_sky.create_radar.CreateRadar;

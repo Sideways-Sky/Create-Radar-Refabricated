@@ -27,8 +27,6 @@ import net.sideways_sky.create_radar.registry.ModItems;
 
 import net.sideways_sky.create_radar.registry.ModLang;
 
-import net.sideways_sky.create_radar.registry.ModPartials;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -52,7 +50,7 @@ public class CreateRadar implements ModInitializer {
 		ModBlockEntityTypes.register();
 		ModCreativeTabs.register();
 		ModLang.register();
-		ModPartials.init();
+
 		RadarConfig.register();
 		ModContraptionTypes.register();
 
